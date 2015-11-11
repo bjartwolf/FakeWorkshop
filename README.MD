@@ -45,7 +45,7 @@ or on linux/mac
 build.sh
 ```
 
-If everything is green it works.
+If everything is green it works. Yay. Fake works, builds, install runners, tests and reports without Visual Studio. See how easy you make life for everyone else?
 
 ## Exercices
 # Start fresh
@@ -58,7 +58,9 @@ Try to comment out everything after line 17 in Trees/build.fsx using
 
 Running build.cmd now doesn't do that much anymore.
 
-## Finding files
+## Finding files 
+FAKE has special trics for finding files, that could project files (cs.proj, fs.proj), packages.config or something else. 
+We should play with the syntax a bit to get comfortable with how it works.
 ```
 for ref in testReferences do tracefn "Found a file %s" ref
 ```
