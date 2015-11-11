@@ -32,6 +32,10 @@ If everything is green it works.
 
 ## Exercices
 Try to comment out everything after line 17 in Trees/build.fsx using 
-``` (* multiline commenting in F# 
-    *)
+``` 
+(* 
+   multiline commenting in F# 
+*)
 ```
+
+
