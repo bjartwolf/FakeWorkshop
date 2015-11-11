@@ -31,11 +31,36 @@ build.sh
 If everything is green it works.
 
 ## Exercices
+# Start fresh
 Try to comment out everything after line 17 in Trees/build.fsx using 
 ``` 
 (* 
    multiline commenting in F# 
 *)
 ```
+
+Running build.cmd now doesn't do that much anymore.
+
+## Finding files
+```
+for ref in testReferences do tracefn "Found a file %s" ref
+```
+
+(Trace functions are documented here http://fsharp.github.io/FAKE/apidocs/fake-tracehelper.html)
+
+## Try changing the patterns
+Try to print out all the files in the subdir
+
+## Filtering and adding files
+The special syntax ++ and -- can be added after files included with !!
+to include more files or filter out files. Try it! Maybe even on C: to find files, it should/could work.
+
+
+
+
+
+
+
+
 
 
