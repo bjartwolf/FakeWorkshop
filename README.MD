@@ -1,3 +1,13 @@
+Planned for use at NRK 11.11.2015
+
+#Agenda
+- Classroom theory on why we are doing this
+- Classroom theory on what fake is
+- Hands-on playing with FAKE to get a feel for operators, targets, fsharp syntax at your desks or laptops in classroom. If we do pair-programming, let the driver be the one with the least fsharp experience.
+- Classroom presentations of how we use FAKE and a look at TeamCity running FAKE
+- Hands-on modifying real builds
+- Discussion
+
 # Why are we doing this? (Classroom, presentation)
 https://nrkbeta.no/2015/11/10/how-i-learned-to-stop-worrying-and-love-the-ci-server/
 - Build locally
@@ -71,11 +81,20 @@ Now try to wrap it up in proper targets and make a list of dependent targets (se
 # Real project things (Classroom, presentation)
 ## Show the builds we have
 #Demonstration 
-(Can't show here, internal code, but there is a demo in the blog)
+Show the backend and frontend scripts, the backend looks like this, but the rest is in our closed source control.
 
-# Real project hacking
+https://gist.github.com/bjartwolf/daafed892f2ee78be070
+
+# Real project hacking (on own machines)
 Look, not dangerous, make a branch and do something to the build. For exapmle add FSharp linting to the backend build.
 Or log something to teamcity. Or just break the build by throwing an exception (failwith "oops"), check it in and see what happens on teamcity.
+
+
+# Team discussion/feedback
+- So what do you think?
+- Do you need to/want to learn more fsharp?
+- Etc...
+
 
 If you want to try something useful try this:
 https://github.com/fsprojects/FSharpLint
