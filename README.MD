@@ -7,6 +7,7 @@ Planned for use at NRK 11.11.2015
 - Classroom presentations of how we use FAKE and a look at TeamCity running FAKE
 - Hands-on modifying real builds
 - Discussion
+- Contributing to FAKE
 
 # Why are we doing this? (Classroom, presentation)
 https://nrkbeta.no/2015/11/10/how-i-learned-to-stop-worrying-and-love-the-ci-server/
