@@ -84,11 +84,14 @@ The things we get from !! ++ -- are called FileIncludes, and can be iterated ove
 
 ```
 Log "found a file" testReferences 
+```
+Or the other way around - pass arguments with |>
+```
 testReferences |> Log "found a file"
 ```
 
 ## Targets
-Now try to wrap it up in proper targets and make a list of dependent targets (see how it is done in the already commented out code, define targets, define depedencies and define a default target)
+Now try to wrap your file-finding and logging  it up in proper targets and make a list of dependent targets (see how it is done in the already commented out code, define targets, define depedencies and define a default target)
 
 # Real project things (Classroom, presentation)
 ## Show the builds we have
