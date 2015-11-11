@@ -20,6 +20,16 @@ http://forki.github.io/FAKE.Intro/#/
 # Fake workshop - part 1 (On own machines)
 Goal: Getting used to the syntax
 
+A little F# could be useful, define things with let. 
+Functions don't have paranthesis. 
+You can also turn things around a bit with the |> operator for clarity.
+That's it... I hope.
+```
+let add x = 1 + x
+add 1
+1 |> add
+```
+
 Use the machine and code from here (setup instructions in the README)
 https://github.com/bjartwolf/Kebab/tree/xunit-2.10
 
