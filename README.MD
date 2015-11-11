@@ -104,6 +104,14 @@ https://gist.github.com/bjartwolf/daafed892f2ee78be070
 Look, not dangerous, make a branch and do something to the build. For exapmle add FSharp linting to the backend build.
 Or log something to teamcity. Or just break the build by throwing an exception (failwith "oops"), check it in and see what happens on teamcity.
 
+If you want to try something useful try this:
+
+https://github.com/fsprojects/FSharpLint
+
+http://fsprojects.github.io//FAKE-Task.html
+
+Or make a build definition from the not-migrated backend services.
+
 
 # Team discussion/feedback
 - So what do you think?
@@ -111,11 +119,6 @@ Or log something to teamcity. Or just break the build by throwing an exception (
 - Etc...
 
 
-If you want to try something useful try this:
-https://github.com/fsprojects/FSharpLint
-http://fsprojects.github.io//FAKE-Task.html
-
-Or make a build definition from the not-migrated backend services.
 
 
 
