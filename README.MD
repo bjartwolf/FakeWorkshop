@@ -38,12 +38,17 @@ git clone https://github.com/bjartwolf/Kebab
 cd Kebab
 git checkout xunit-2.10
 cd Trees
-build.cmd
+build.cmd 
 ```
 or on linux/mac
 ```
 build.sh
 ```
+and in PowerShell
+```
+.\build.cmd
+```
+
 
 If everything is green it works. Yay. Fake works, builds, install runners, tests and reports without Visual Studio. See how easy you make life for everyone else?
 
