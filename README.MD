@@ -13,7 +13,7 @@ http://forki.github.io/FAKE.Intro/#/
 # Fake workshop - part 1
 Goal: Getting used to the syntax
 
-Use the machine and code from here
+Use the machine and code from here (setup instructions in the README)
 https://github.com/bjartwolf/Kebab/tree/xunit-2.10
 
 ```
@@ -28,4 +28,10 @@ or on linux/mac
 build.sh
 ```
 
-Now
+If everything is green it works.
+
+## Exercices
+Try to comment out everything after line 17 in Trees/build.fsx using 
+``` (* multiline commenting in F# 
+    *)
+```
